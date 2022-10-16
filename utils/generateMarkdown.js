@@ -43,6 +43,7 @@ function generateMarkdown(data) {
 - [conptributers](#conptributers)
 
 ## github
+${data.github}
 
 
 ## discription
@@ -64,6 +65,13 @@ ${data.features}
 
 ## conptributers
  ${data.conptributers}
+
+
+ ## test
+ ${data.tests}
+
+ ## queation
+ ${data.question}
   `
   ;
 }

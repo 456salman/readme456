@@ -12,7 +12,6 @@ const questions = [
         name: "title",
         message: "what the title"
     },
-
     {
         type: "input",
         name: "github",
@@ -56,14 +55,19 @@ const questions = [
         name: "conptributers",
         message: "if you made an application and want other to contribute give them a guideline"
     },
+    {
+        type: "input",
+        name: "tests",
+        message: "what tests have you encountered"
+    },
+    {
+        type: "input",
+        name: "question",
+        message: "questions you want to ask the reader"
+    }
 
 ];
-//inquirer.prompt(questions)
-  //.then(function (response) {
-    //response.confirm === response.answer
-      //? console.log('Success!')
-      //: console.log('You forgot your password already?!')
-  //});
+
 
 // TODO: Create a function to write README file
 //function writeToFile(fileName, data) { }
